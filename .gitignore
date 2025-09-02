@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.out/
+.next/
+.vercel/
+.cache/
+parcel-cache/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Supabase local artifacts
+.supabase/
+supabase/.branches/
+
+# Misc
+*.swp
+*.swo

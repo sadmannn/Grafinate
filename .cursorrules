@@ -1,0 +1,21 @@
+# Cursor Rules for Grafinate
+
+## Checklist Discipline
+- Always update `ROADMAP.md` checkboxes immediately when a related step is completed in code, config, or infrastructure.
+- PRs touching a roadmap item must include the corresponding checkbox change in the same commit/PR.
+- Never pre‑check items. Only check when the feature is merged to `main` and verified in staging.
+
+## Free‑Tier‑First Policy
+- Prefer free tiers and zero‑cost options across stack: Cloudflare Pages, Supabase Free tier, Sentry Free, Cloudflare WAF free, GitHub Actions free minutes.
+- Paid purchases are not allowed except the custom domain. If a paid feature is required, open an issue titled "Exit Free Tier – <feature>" with alternatives and costs before proceeding.
+
+## Security & Compliance
+- Keep Row‑Level Security enabled on all Supabase tables.
+- Enforce file upload restrictions (size/mime) and review RLS policies in PRs.
+- Disallow committing secrets; use environment variables and project secrets only.
+
+## Documentation
+- Keep `ROADMAP.md` the single source of truth for scope and status.
+- Update `Overview.md` when high‑level scope or vendor choices change.
+
+
